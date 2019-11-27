@@ -6,7 +6,7 @@ This project was designed to pass the practical examination of Web Technologies 
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
 
 ### Prerequisites
 
@@ -29,7 +29,7 @@ After `git clone`, go to the terminal in the **repository directory** and run th
 - Open .env file and for `DB_DATABASE`, `DB_USERNAME`, `DB_PASSWORD`, enter your credentials to access your database.
 - `php artisan migrate` to update the database structure. [E-R Diagram](E-R_Diagram.png)
 - `php artisan key:generate` to generate application key
-- ``
+
 ## Running
 
 Open the terminal in the **repository directory**, run `php artisan serve` and open the link to the localhost.
